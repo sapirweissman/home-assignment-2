@@ -1,0 +1,425 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #333;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 60px;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: #e2899f;
+  background-color: #434141;
+  border-radius: 7px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgb(64, 63, 63);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10 px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 75%;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.main-section {
+  display: flex;
+  align-items: normal;
+}
+
+#home h1 {
+  /* Hi There, */
+
+  position: absolute;
+  width: 91px;
+  height: 28px;
+  left: 177px;
+  margin-top: 37px;
+
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+#home h2 {
+  position: absolute;
+  width: 502px;
+  height: 132px;
+  left: 170px;
+  margin-top: 35px;
+
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 102px;
+  line-height: 129.5%;
+  /* identical to box height, or 132px */
+  letter-spacing: -0.08em;
+
+  color: #383838;
+}
+
+#home h3 {
+  /* Subheading */
+
+  position: absolute;
+  width: 583px;
+  height: 67px;
+  left: 173px;
+  margin-top: 135px;
+
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 129.5%;
+  /* or 67px */
+  letter-spacing: -0.08em;
+
+  color: #383838;
+}
+
+#home h4 {
+  position: absolute;
+  width: 424px;
+  height: 41px;
+  left: 173px;
+  margin-top: 260px;
+
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 129.5%;
+  /* or 41px */
+  letter-spacing: -0.08em;
+
+  color: #383838;
+}
+
+.main-link {
+  position: absolute;
+  font-size: 20px;
+  line-height: 129.5%;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  left: 177px;
+  top: 490px;
+  background: #f1214f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-link:hover {
+  background-color: #3e292f;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 200px;
+  position: absolute;
+  width: 600px;
+  height: 350px;
+  left: 529px;
+}
+
+.card {
+  width: 350px;
+  margin: 30px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#footer-home {
+  background-color: #333;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 170px;
+  padding-left: 70px;
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+/*about me*/
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.about-me > div > ul {
+  list-style-type: none;
+}
+.about-me:hover {
+  color: #f21282;
+  box-shadow: 30px 20px 4px 30px pink(242, 58, 80, 0.5);
+  transition: box-shadow 0.5 linear;
+}
+
+#me {
+  margin-left: 100px;
+  background-color: #f8e7ec;
+}
+
+#adolescence {
+  margin-left: 200px;
+  background-color: rgb(245, 205, 218);
+}
+
+#after-highschool {
+  margin-left: 300px;
+  background-color: rgb(250, 190, 210);
+}
+
+.about-me > div > h1 {
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 129.5%;
+
+  font-family: "Arial", sans-serif;
+  color: #333; /* צבע טקסט */
+  text-align: center;
+  border-bottom: 2px solid #f1214f; /* קו תחתון בצבע */
+  padding: 10px 0; /* מרווח מסביב לכותרת */
+}
+
+.about-me > div > h1:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-me > div > a {
+  margin: bottom 1000px;
+}
+
+.about-me .main-link {
+  margin-left: 1050px;
+  position: static;
+}
+
+/*Skills*/
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.skills:hover {
+  color: #f8f8f8;
+  transition: box-shadow 1 linear;
+}
+
+#skill {
+  margin-left: 100px;
+  background-color: #bfbdbd;
+}
+
+#applied-skills {
+  margin-left: 200px;
+  background-color: rgb(158, 156, 157);
+}
+
+#work-experience {
+  margin-left: 300px;
+  background-color: #848383;
+}
+
+.skills > div > h1 {
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 129.5%;
+
+  font-family: "Arial", sans-serif;
+  color: #333; /* צבע טקסט */
+  text-align: center;
+  border-bottom: 2px solid #f1214f; /* קו תחתון בצבע */
+  padding: 10px 0; /* מרווח מסביב לכותרת */
+}
+.skills > div > h2 {
+  font-family: "Arial", sans-serif;
+  color: #333; /* צבע טקסט */
+  text-align: center;
+  border-bottom: 2px solid #f1214f; /* קו תחתון בצבע */
+  padding: 10px 0; /* מרווח מסביב לכותרת */
+  font-size: 25px;
+}
+
+.skills > div > h1:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.skills .main-link {
+  margin-left: 1050px;
+  position: static;
+}
+
+/*projects*/
+
+.projects {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.projects > div > h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.projects > div > h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.projects > div > p {
+  color: #555;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.projects > div > ul {
+  color: #555;
+  font-size: 1.2em;
+  line-height: 1.6;
+  list-style-type: none;
+}
+
+.cards-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 200px;
+  position: absolute;
+  left: 529px;
+  top: 60px;
+}
+
+.cards {
+  width: 350px;
+  margin: 16px;
+}
+
+.cards img {
+  width: 100%;
+  border-radius: 8px;
+}

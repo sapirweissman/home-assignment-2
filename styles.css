@@ -91,27 +91,17 @@ nav a:hover {
   }
 }
 
-.main-section {
-  display: flex;
-  align-items: normal;
-}
-
 #home h1 {
-  /* Hi There, */
-
   position: absolute;
   width: 91px;
   height: 28px;
   left: 177px;
   margin-top: 37px;
-
   font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  /* identical to box height */
-
   color: #000000;
 }
 
@@ -121,33 +111,26 @@ nav a:hover {
   height: 132px;
   left: 170px;
   margin-top: 35px;
-
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 900;
   font-size: 102px;
   line-height: 129.5%;
-  /* identical to box height, or 132px */
   letter-spacing: -0.08em;
-
   color: #383838;
 }
 
 #home h3 {
-  /* Subheading */
-
   position: absolute;
   width: 583px;
   height: 67px;
   left: 173px;
   margin-top: 135px;
-
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 400;
   font-size: 52px;
   line-height: 129.5%;
-  /* or 67px */
   letter-spacing: -0.08em;
 
   color: #383838;
@@ -159,13 +142,11 @@ nav a:hover {
   height: 41px;
   left: 173px;
   margin-top: 260px;
-
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 129.5%;
-  /* or 41px */
   letter-spacing: -0.08em;
 
   color: #383838;
@@ -443,36 +424,33 @@ nav a:hover {
   }
 
   #home h1 {
-    left: 0px;
+    left: 8px;
   }
 
   #home h2 {
-    left: 0px;
+    left: 8px;
     max-width: 100%;
+    font-size: 80px;
+    top: 75px;
   }
 
   #home h3 {
-    left: 0px;
+    left: 8px;
     max-width: 100%;
+    font-size: 45px;
   }
 
   #home h4 {
-    left: 0px;
+    left: 8px;
     max-width: 100%;
+  }
+
+  .main-section .main-link {
+    left: 60px;
   }
 
   #footer-home {
-    position: fixed;
-    margin-bottom: 0px;
-    height: auto;
-    max-width: 100%;
-  }
-
-  .footer ul li {
-    display: flex;
-    margin-right: 10px;
-    padding-left: 10px;
-    font-size: 16px;
+    display: none;
   }
 
   .cards-container {

@@ -437,34 +437,41 @@ nav a:hover {
     width: 100%;
   }
 
+  .main-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   #home h1 {
-    left: 70px;
-    max-width: 100%;
+    left: 0px;
   }
 
   #home h2 {
-    left: 70px;
+    left: 0px;
     max-width: 100%;
   }
 
   #home h3 {
-    left: 70px;
+    left: 0px;
     max-width: 100%;
   }
 
   #home h4 {
-    left: 70px;
+    left: 0px;
+    max-width: 100%;
   }
 
   #footer-home {
     position: fixed;
     margin-bottom: 0px;
+    height: auto;
+    max-width: 100%;
   }
 
   .footer ul li {
-    display: inline;
-    margin-right: 20px;
-    padding-left: 20px;
+    display: flex;
+    margin-right: 10px;
+    padding-left: 10px;
     font-size: 16px;
   }
 

@@ -442,19 +442,20 @@ nav a:hover {
   #home h2 {
     left: 8px;
     max-width: 100%;
-    font-size: 80px;
-    top: 75px;
+    font-size: 55px;
+    top: 85px;
   }
 
   #home h3 {
     left: 8px;
     max-width: 100%;
-    font-size: 45px;
+    font-size: 30px;
   }
 
   #home h4 {
     left: 8px;
     max-width: 100%;
+    font-size: 30px;
   }
 
   .main-section .main-link {
@@ -495,6 +496,8 @@ nav a:hover {
   #work-experience {
     margin: 0;
     size: 10px;
+    gap: 20px;
+    padding: 10px;
   }
 
   .skills .main-link {

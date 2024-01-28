@@ -439,14 +439,17 @@ nav a:hover {
 
   #home h1 {
     left: 70px;
+    max-width: 100%;
   }
 
   #home h2 {
     left: 70px;
+    max-width: 100%;
   }
 
   #home h3 {
     left: 70px;
+    max-width: 100%;
   }
 
   #home h4 {
@@ -469,6 +472,7 @@ nav a:hover {
     position: static;
     margin-left: 0px;
     margin-top: 500px;
+    max-width: 100%;
   }
 
   .card {

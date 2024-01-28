@@ -369,7 +369,7 @@ nav a:hover {
 }
 
 .skills .main-link {
-  margin-left: 1050px;
+  margin-left: 1120px;
   position: static;
 }
 
@@ -432,12 +432,55 @@ nav a:hover {
 }
 
 @media (max-width: 700px) {
-  .about-me {
-    margin: 0;
+  #home h1 {
+    left: 70px;
+  }
+
+  #home h2 {
+    left: 70px;
+  }
+
+  #home h3 {
+    left: 70px;
+  }
+
+  #home h4 {
+    left: 70px;
+  }
+
+  #footer-home {
+    position: fixed;
+    margin-bottom: 0px;
+  }
+
+  .footer ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .cards-container {
+    position: static;
+    margin-left: 0px;
+    margin-top: 500px;
+  }
+
+  .card {
+    padding-bottom: 100px;
   }
 
   .about-me .main-link {
-    margin-left: 0px;
+    margin-left: 10px;
+  }
+
+  .about-me,
+  #me,
+  #adolescence,
+  #after-highschool {
+    margin: 0;
+    size: 10px;
+    text-align: center;
   }
 
   .skills,
@@ -449,7 +492,7 @@ nav a:hover {
   }
 
   .skills .main-link {
-    margin-left: 0px;
+    margin-left: 10px;
   }
 
   .projects {
@@ -457,11 +500,10 @@ nav a:hover {
   }
 
   .cards-containers {
+    margin-left: 0px;
     position: static;
   }
-
   .cards {
-    margin: 0;
-    margin-right: 200px;
+    margin: 5px;
   }
 }

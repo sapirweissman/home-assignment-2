@@ -4,11 +4,18 @@ body {
   min-height: 100vh;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 nav {
   background-color: #333;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   height: 60px;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -50,7 +57,7 @@ nav a:hover {
   background-color: rgb(64, 63, 63);
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10 px rgba(0, 0, 0, 0.1);
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -422,4 +429,39 @@ nav a:hover {
 .cards img {
   width: 100%;
   border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+  .about-me {
+    margin: 0;
+  }
+
+  .about-me .main-link {
+    margin-left: 0px;
+  }
+
+  .skills,
+  #applied-skills,
+  #skill,
+  #work-experience {
+    margin: 0;
+    size: 10px;
+  }
+
+  .skills .main-link {
+    margin-left: 0px;
+  }
+
+  .projects {
+    margin: 0;
+  }
+
+  .cards-containers {
+    position: static;
+  }
+
+  .cards {
+    margin: 0;
+    margin-right: 200px;
+  }
 }

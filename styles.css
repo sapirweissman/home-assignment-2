@@ -192,6 +192,23 @@ nav a:hover {
   border-radius: 8px;
 }
 
+/* animation */
+/* photo */
+.fade {
+  animation: fade ease 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 #footer-home {
   background-color: #333;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -416,11 +433,6 @@ nav a:hover {
 @media (max-width: 700px) {
   header {
     width: 100%;
-  }
-
-  .main-section {
-    display: flex;
-    flex-wrap: wrap;
   }
 
   #home h1 {

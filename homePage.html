@@ -11,14 +11,14 @@
       <nav  style="z-index: 700;">
         <ul class="sidebar">
           <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-          <li><a href="index.html">Home Page</a></li>
+          <li><a href="homePage.html" class="navNow">Home Page</a></li>
           <li><a href="about.html">About Me</a></li>
           <li><a href="skills.html">Skills</a></li>
           <li><a href="projects.html">Project</a></li>
         </ul>
         <ul>
           <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a> </li> 
-          <li class="hideOnMobile"><a href="index.html">Home Page</a></li>
+          <li class="hideOnMobile"><a href="homePage.html" class="navNow">Home Page</a></li>
           <li class="hideOnMobile"><a href="about.html">About Me</a></li>
           <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
           <li class="hideOnMobile"><a href="projects.html">Project</a></li>
@@ -47,27 +47,30 @@
     <section >
       <div class="cards-container">
         <div class="card">
-          <img class="fade" src="./photo of me.jpg">
+          <img class="fade" src="./photos/photo of me.jpg">
           </div>
     </section>
 
 
     <footer>
-      <div id="footer-home" class="footer">
-          <ul>
-            <li>
-              Email <br />
-              Sapirweissman1@gmail.com
-            </li>
-            <li>
-              Phone <br />
-              +972545305999
-            </li>
-            <li>
-              Location <br />
-              Israel, Bat Hefer
-            </li>
-          </ul>
+      <div class="icons">
+        <div class="icon">
+          <a href="https://m.facebook.com/profile.php/?id=100000328480952&name=xhp_nt__fb__action__open_user"
+          ><img src="./photos/facebook.png" alt="facebook"
+        /></a>
+        </div>
+
+        <div class="icon">
+          <a href="https://www.instagram.com/sapirweissman?igsh=MTR0Ymk4aG1oOXBucQ%3D%3D&utm_source=qr"
+          ><img src="./photos/instegram.jpg" alt="instegram"
+        /></a>
+        </div>
+
+        <div class="icon">
+          <a href="https://www.linkedin.com/in/sapir-weissman-6ab8872a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          ><img src="./photos/linkedin.png" alt="kinkedin"
+        /></a>
+        </div>
       </div>
     </footer>
   </body>
